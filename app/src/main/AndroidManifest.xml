@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aniket.myprofile">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".Education"
+            android:label="Education">
+
+        </activity>
+        <activity
+            android:name=".workexperience"
+            android:label="Work experience">
+
+        </activity>
+        <activity
+            android:name=".NewHome"
+            android:label="My Profile">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyProfilePhoto"
+            android:label="My Profile Photo"></activity>
+    </application>
+
+</manifest>

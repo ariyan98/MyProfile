@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aniket.myprofile.workexperience">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="491dp"
+        android:padding="20dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+
+            android:id="@+id/line1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="25dp">
+
+            <TextView
+                android:id="@+id/main1"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Chief Executive Officer"
+                android:textColor="#222222"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/i1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Stark Industries"
+                android:textColor="#555555"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:id="@+id/line2"
+            android:layout_below="@id/line1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="25dp">
+
+            <TextView
+                android:id="@+id/main2"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Iron Man (Part Time)"
+                android:textColor="#222222"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/i2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="United States of America"
+                android:textColor="#555555"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
